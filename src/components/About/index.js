@@ -47,6 +47,9 @@ const About = () => {
                 When I'm not studying or working, you can usually find me hanging out with friends,
                 watching a movie or sports, doing something outdoors, or beating my roommates in chess.
             </p>
+            <p>
+                Thanks for stopping by!
+            </p>
         </div>
 
         <div className='stage-cube-cont'>

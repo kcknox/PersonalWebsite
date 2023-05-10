@@ -1,12 +1,22 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+
 import './index.scss'
 import { Link, NavLink } from 'react-router-dom'
 import LogoK from '../../assets/images/Klogo.png'
 import LogoSubtitle from '../../assets/images/KCKNOX-name2.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHome, faUser, faEnvelope, faHammer, faBriefcase, } from '@fortawesome/free-solid-svg-icons'
-import {faLinkedin, faGithub, faEmpire} from '@fortawesome/free-brands-svg-icons'
+import {faLinkedin, faGithub, faMandalorian} from '@fortawesome/free-brands-svg-icons'
+import way from '../../assets/sounds/the-way.mp3'
 
-const Sidebar = () => (
+const Sidebar = () => {
+
+    const playSound = () => {
+        const audio = new Audio(way);
+        audio.play();
+    }
+
+    return (
     <div className='nav-bar'>
         <Link className='logo' to='/'>
             <img src={LogoK} alt="logo" />
@@ -53,16 +63,12 @@ const Sidebar = () => (
                 </a>
             </li>
             <li>
-                <a 
-                    target="_blank"
-                    rel="noreferrer"
-                    href='https://youtu.be/-bzWSJG93P8'
-                >
-                    <FontAwesomeIcon icon={faEmpire} color="#4d4d4e" />
+                <a>
+                    <FontAwesomeIcon icon={faMandalorian} color="#4d4d4e" onClick={playSound} />
                 </a>
             </li>
         </ul>
     </div>
-)
+)}
 
 export default Sidebar
