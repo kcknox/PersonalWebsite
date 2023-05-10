@@ -26,6 +26,33 @@ const Contact = () => {
                             idx={15}
                         />
                     </h1>
+                    <p>
+                        I am currently seeking employment from an IT company for 
+                        the summer and post graduation. If you have a question,
+                        feedback, or just want to say hello, I'd love to hear from
+                        you! Use the form below to send me a message.
+                    </p>
+                    <div className='contact-form'>
+                        <form>
+                            <ul>
+                                <li className='half'>
+                                    <input type="text" name="name" placeholder="Name" required />
+                                </li>
+                                <li className='half'>
+                                    <input type="email" name="email" placeholder="Email" required />
+                                </li>
+                                <li>
+                                    <input placeholder="Subject" type="text" name="subject" required />
+                                </li>
+                                <li>
+                                    <textarea placeholder="Message" name="message" required />
+                                </li>
+                                <li>
+                                    <input type="submit" className='flat-button' value="SEND" />
+                                </li>
+                            </ul>
+                        </form>
+                    </div>
                 </div>
             </div>
             <Loader type='pacman' />
