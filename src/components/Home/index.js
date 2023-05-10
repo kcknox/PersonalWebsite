@@ -3,6 +3,7 @@ import LogoK from '../../assets/images/Klogo.png'
 import './index.scss'
 import { useEffect, useState } from 'react';
 import AnimatedLetters from '../AnimatedLetters';
+import Loader from 'react-loaders';
 //import Test from '../../assets/images/KOutline2.png'
 
 const Home = () => {
@@ -21,6 +22,7 @@ const Home = () => {
     }, [])
 
     return (
+        <>
         <div className="container home-page">
             <div className="text-zone">
                 <h1>
@@ -41,6 +43,8 @@ const Home = () => {
             </div>
             <img src={LogoK} alt="K" className="logo" />
         </div>
+        <Loader type="pacman" />
+        </>
     );
 }
 

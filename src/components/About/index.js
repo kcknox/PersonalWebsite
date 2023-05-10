@@ -7,6 +7,7 @@ import cousin from "../../assets/images/cousins.jpg"
 import chess from "../../assets/images/chess.jpg"
 import max from "../../assets/images/maxChair.jpg"
 import gary from "../../assets/images/garyTough.jpg"
+import Loader from 'react-loaders';
 
 const About = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -21,7 +22,8 @@ const About = () => {
     }, [])
 
     return (
-    <div className="container about-page">
+    <>
+        <div className="container about-page">
         <div className="text-zone">
             <h1>
                 <AnimatedLetters
@@ -74,7 +76,9 @@ const About = () => {
                 </div>
             </div>
         </div>
-    </div>
+        </div>
+        <Loader type="pacman" />
+    </>
     )
 };
 
