@@ -41,8 +41,8 @@ const About = () => {
             </p>
             <p>
                 I have a passion for front-end development and all things creative.
-                I have developed a strong skill set in Java, Python, C, C++, and 
-                React JS throughout my computer science career.
+                I have developed a strong skill set in Java, Python, C, C++, JavaScript,
+                and React JS throughout my computer science career.
             </p>
             <p>
                 I love collaborating with others and am always excited to learn new things.
