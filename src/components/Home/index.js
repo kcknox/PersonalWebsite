@@ -9,7 +9,7 @@ import Loader from 'react-loaders';
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
     const firstNameArray = [' ', 'K', 'e', 'n', 'n', 'e', 't', 'h', ' ']
-    const lastNameArray = ['n', 'o', 'x']
+    const lastNameArray = ['n', 'o', 'x', ',']
     const jobArray = ['S', 'o', 'f', 't', 'w', 'a', 'r', 'e', ' ', 'E', 'n', 'g', 'i', 'n', 'e', 'e', 'r', '.']
 
     useEffect(() => {
@@ -18,7 +18,7 @@ const Home = () => {
         }, 3500)
         return () => {
                     clearTimeout(timeoutId)
-                }
+            }
     }, [])
 
     return (
@@ -43,7 +43,7 @@ const Home = () => {
             </div>
             <img src={LogoK} alt="K" className="logo" />
         </div>
-        <Loader type="pacman" />
+        <Loader type="ball-clip-rotate-pulse" />
         </>
     );
 }

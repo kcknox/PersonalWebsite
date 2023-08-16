@@ -77,7 +77,7 @@ const About = () => {
             </div>
         </div>
         </div>
-        <Loader type="pacman" />
+        <Loader type="ball-clip-rotate-pulse" />
     </>
     )
 };

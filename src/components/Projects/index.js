@@ -26,9 +26,12 @@ const Projects = () => {
                             idx={15}
                         />
                     </h1>
+                    <p>
+                        Soon...
+                    </p>
                 </div>
             </div>
-            <Loader type='pacman' />
+            <Loader type='ball-clip-rotate-pulse' />
         </>
     )
 }
