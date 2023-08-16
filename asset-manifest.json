@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.d448a4d8.css",
-    "main.js": "/static/js/main.0659abce.js",
-    "static/js/787.5809834d.chunk.js": "/static/js/787.5809834d.chunk.js",
-    "static/media/garyTough.jpg": "/static/media/garyTough.360da9611d5f352ce5b4.jpg",
-    "static/media/chess.jpg": "/static/media/chess.36d94be8347cf158d1db.jpg",
-    "static/media/maxChair.jpg": "/static/media/maxChair.48ba1ddd6bddf5e2dff1.jpg",
-    "static/media/cousins.jpg": "/static/media/cousins.0f050c1d16af9acafce2.jpg",
-    "static/media/Headshot.jpg": "/static/media/Headshot.69fede4cce7fcb7efd22.jpg",
-    "static/media/room.jpg": "/static/media/room.ee6018898d710be9f341.jpg",
-    "static/media/Klogo.png": "/static/media/Klogo.32c261393c3723ceaf07.png",
-    "static/media/helvetica-neu.ttf": "/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
-    "static/media/LaBelleAurore.woff2": "/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
-    "static/media/the-way.mp3": "/static/media/the-way.1a461fef2c23df024b1e.mp3",
-    "static/media/CoolveticaRg-Regular.woff2": "/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
-    "index.html": "/index.html",
-    "main.d448a4d8.css.map": "/static/css/main.d448a4d8.css.map",
-    "main.0659abce.js.map": "/static/js/main.0659abce.js.map",
-    "787.5809834d.chunk.js.map": "/static/js/787.5809834d.chunk.js.map"
+    "main.css": "/PersonalWebsite/static/css/main.94b449ea.css",
+    "main.js": "/PersonalWebsite/static/js/main.3987b465.js",
+    "static/js/787.5809834d.chunk.js": "/PersonalWebsite/static/js/787.5809834d.chunk.js",
+    "static/media/garyTough.jpg": "/PersonalWebsite/static/media/garyTough.360da9611d5f352ce5b4.jpg",
+    "static/media/chess.jpg": "/PersonalWebsite/static/media/chess.36d94be8347cf158d1db.jpg",
+    "static/media/maxChair.jpg": "/PersonalWebsite/static/media/maxChair.48ba1ddd6bddf5e2dff1.jpg",
+    "static/media/cousins.jpg": "/PersonalWebsite/static/media/cousins.0f050c1d16af9acafce2.jpg",
+    "static/media/Headshot.jpg": "/PersonalWebsite/static/media/Headshot.69fede4cce7fcb7efd22.jpg",
+    "static/media/room.jpg": "/PersonalWebsite/static/media/room.ee6018898d710be9f341.jpg",
+    "static/media/Klogo.png": "/PersonalWebsite/static/media/Klogo.32c261393c3723ceaf07.png",
+    "static/media/helvetica-neu.ttf": "/PersonalWebsite/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/LaBelleAurore.woff2": "/PersonalWebsite/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/the-way.mp3": "/PersonalWebsite/static/media/the-way.1a461fef2c23df024b1e.mp3",
+    "static/media/CoolveticaRg-Regular.woff2": "/PersonalWebsite/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "index.html": "/PersonalWebsite/index.html",
+    "main.94b449ea.css.map": "/PersonalWebsite/static/css/main.94b449ea.css.map",
+    "main.3987b465.js.map": "/PersonalWebsite/static/js/main.3987b465.js.map",
+    "787.5809834d.chunk.js.map": "/PersonalWebsite/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d448a4d8.css",
-    "static/js/main.0659abce.js"
+    "static/css/main.94b449ea.css",
+    "static/js/main.3987b465.js"
   ]
 }
