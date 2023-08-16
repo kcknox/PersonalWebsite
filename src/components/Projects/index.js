@@ -27,7 +27,7 @@ const Projects = () => {
                         />
                     </h1>
                     <p>
-                        Soon...
+                        YAYAYAYAYAYAYAYAYAY test
                     </p>
                 </div>
             </div>
