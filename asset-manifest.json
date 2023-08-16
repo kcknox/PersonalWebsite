@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/PersonalWebsite/static/css/main.94b449ea.css",
+    "main.css": "/PersonalWebsite/static/css/main.ece1c883.css",
     "main.js": "/PersonalWebsite/static/js/main.3b71ad73.js",
     "static/js/787.5809834d.chunk.js": "/PersonalWebsite/static/js/787.5809834d.chunk.js",
     "static/media/garyTough.jpg": "/PersonalWebsite/static/media/garyTough.360da9611d5f352ce5b4.jpg",
@@ -15,12 +15,12 @@
     "static/media/the-way.mp3": "/PersonalWebsite/static/media/the-way.1a461fef2c23df024b1e.mp3",
     "static/media/CoolveticaRg-Regular.woff2": "/PersonalWebsite/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/PersonalWebsite/index.html",
-    "main.94b449ea.css.map": "/PersonalWebsite/static/css/main.94b449ea.css.map",
+    "main.ece1c883.css.map": "/PersonalWebsite/static/css/main.ece1c883.css.map",
     "main.3b71ad73.js.map": "/PersonalWebsite/static/js/main.3b71ad73.js.map",
     "787.5809834d.chunk.js.map": "/PersonalWebsite/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.94b449ea.css",
+    "static/css/main.ece1c883.css",
     "static/js/main.3b71ad73.js"
   ]
 }
