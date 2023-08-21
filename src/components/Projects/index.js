@@ -7,6 +7,7 @@ const Projects = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
 
     useEffect(() => {
+        document.title = 'kcknox - Projects';
         let timeoutId = setTimeout(() => {
             setLetterClass('text-animate-hover')
         }, 2000)

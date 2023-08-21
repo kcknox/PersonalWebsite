@@ -13,6 +13,7 @@ const Home = () => {
     const jobArray = ['S', 'o', 'f', 't', 'w', 'a', 'r', 'e', ' ', 'E', 'n', 'g', 'i', 'n', 'e', 'e', 'r', '.']
 
     useEffect(() => {
+        document.title = 'kcknox - Home';
         let timeoutId = setTimeout(() => {
             setLetterClass('text-animate-hover')
         }, 3500)

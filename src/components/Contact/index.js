@@ -10,6 +10,7 @@ const Contact = () => {
     const form = useRef()
 
     useEffect(() => {
+        document.title = 'kcknox - Contact';
         let timeoutId = setTimeout(() => {
             setLetterClass('text-animate-hover')
         }, 2000)

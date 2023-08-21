@@ -7,6 +7,7 @@ const Experience = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
 
     useEffect(() => {
+        document.title = 'kcknox - Experience';
         let timeoutId = setTimeout(() => {
             setLetterClass('text-animate-hover')
         }, 2000)
@@ -58,7 +59,7 @@ const Experience = () => {
                         projects were executed efficiently and in accordance with the desired specifications.
                     </p>        
                 </div>
-                <a href="https://www.google.com" className='custom-button'> RESUME </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.google.com" className='custom-button'> RESUME </a>
             </div>
             <Loader type='ball-clip-rotate-pulse' />
         </>

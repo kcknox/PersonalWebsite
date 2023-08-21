@@ -13,6 +13,7 @@ const About = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
 
     useEffect(() => {
+        document.title = 'kcknox - About';
         let timeoutId = setTimeout(() => {
             setLetterClass('text-animate-hover')
         }, 2000)
