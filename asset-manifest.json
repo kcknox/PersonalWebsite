@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.7024e569.css",
+    "main.css": "/static/css/main.ff89ea6b.css",
     "main.js": "/static/js/main.f7014719.js",
     "static/js/787.5809834d.chunk.js": "/static/js/787.5809834d.chunk.js",
     "static/media/garyTough.jpg": "/static/media/garyTough.360da9611d5f352ce5b4.jpg",
@@ -15,12 +15,12 @@
     "static/media/the-way.mp3": "/static/media/the-way.1a461fef2c23df024b1e.mp3",
     "static/media/CoolveticaRg-Regular.woff2": "/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/index.html",
-    "main.7024e569.css.map": "/static/css/main.7024e569.css.map",
+    "main.ff89ea6b.css.map": "/static/css/main.ff89ea6b.css.map",
     "main.f7014719.js.map": "/static/js/main.f7014719.js.map",
     "787.5809834d.chunk.js.map": "/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7024e569.css",
+    "static/css/main.ff89ea6b.css",
     "static/js/main.f7014719.js"
   ]
 }
