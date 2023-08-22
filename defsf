@@ -1,0 +1,13 @@
+[1mdiff --git a/src/components/Projects/index.js b/src/components/Projects/index.js[m
+[1mindex bb4d2d6..69aebfd 100644[m
+[1m--- a/src/components/Projects/index.js[m
+[1m+++ b/src/components/Projects/index.js[m
+[36m@@ -28,7 +28,7 @@[m [mconst Projects = () => {[m
+                         />[m
+                     </h1>[m
+                     <p>[m
+[31m-                        YAYAYAYAYAYAYAYAYAY test[m
+[32m+[m[41m                        [m
+                     </p>[m
+                 </div>[m
+             </div>[m

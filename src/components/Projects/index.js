@@ -28,7 +28,7 @@ const Projects = () => {
                         />
                     </h1>
                     <p>
-                        YAYAYAYAYAYAYAYAYAY test
+                        Page under construction...
                     </p>
                 </div>
             </div>
