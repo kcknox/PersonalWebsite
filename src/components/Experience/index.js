@@ -59,7 +59,7 @@ const Experience = () => {
                         projects were executed efficiently and in accordance with the desired specifications.
                     </p>        
                 </div>
-                <a target="_blank" rel="noopener noreferrer" href="https://www.google.com" className='custom-button'> RESUME </a>
+                <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/17bXTKYiGmIGML5EYOq2xwtpapHXv_uh6/view?usp=sharing" className='custom-button'> RESUME </a>
             </div>
             <Loader type='ball-clip-rotate-pulse' />
         </>
