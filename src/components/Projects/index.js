@@ -27,26 +27,32 @@ const Projects = () => {
                             idx={15}
                         />
                     </h1>
-                    <h2 className='title1'> F1/10 Autonomous Car </h2>
+                    <h2 className='proj1'> F1/10 Autonomous Car </h2>
                     <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/D3qaYWlWXmY" className='demo'> Demo Video </a>
                     <p>
                         Self driving car
                     </p>
-                    <h2 className='title2'> Pintos </h2>
+                    <h2 className='proj2'> Pintos Toy Operating System</h2>
                     <p>
                         OS
                     </p>
-                    <h3 className='title3'> Huffman </h3>
+                    <h3 className='proj3'> Machine Learning Projects</h3>
                     <p>
-                    Designed and executed a robust data compression solution by 
+                        Coded ML in Python
+                    </p>
+                    <h4 className='proj4'> Huffman Compression Algorithm</h4>
+                    <p>
+                    Designed and executed a robust data compression solution with
+                    an intuitive Graphical User Interface (GUI) by 
                     implementing the Huffman coding algorithm. The project yielded 
                     substantial reductions in file sizes while ensuring the utmost
                     data integrity. Leveraged Java programming to meticulously 
                     craft encoding and decoding functionalities, utilizing data 
-                    structures such as..... . This achievement
-                    not only underscored my ability to optimize complex processes
-                    but also demonstrated my proficiency in utilizing programming 
-                    languages to solve real-world challenges effectively
+                    structures such as binary trees, priority queues and HashMaps.
+                    </p>
+                    <h5 className='proj5'> BookHunter Website </h5>
+                    <p>
+                        Full stack engineered a website. Found on GitLab.
                     </p>
                 </div>
             </div>
