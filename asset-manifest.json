@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c0a1ac59.css",
-    "main.js": "/static/js/main.6145359c.js",
+    "main.js": "/static/js/main.9c286110.js",
     "static/js/787.5809834d.chunk.js": "/static/js/787.5809834d.chunk.js",
     "static/media/garyTough.jpg": "/static/media/garyTough.360da9611d5f352ce5b4.jpg",
     "static/media/chess.jpg": "/static/media/chess.36d94be8347cf158d1db.jpg",
@@ -16,11 +16,11 @@
     "static/media/CoolveticaRg-Regular.woff2": "/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/index.html",
     "main.c0a1ac59.css.map": "/static/css/main.c0a1ac59.css.map",
-    "main.6145359c.js.map": "/static/js/main.6145359c.js.map",
+    "main.9c286110.js.map": "/static/js/main.9c286110.js.map",
     "787.5809834d.chunk.js.map": "/static/js/787.5809834d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c0a1ac59.css",
-    "static/js/main.6145359c.js"
+    "static/js/main.9c286110.js"
   ]
 }
