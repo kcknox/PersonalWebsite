@@ -5,7 +5,7 @@ import { Link, NavLink } from 'react-router-dom'
 import LogoK from '../../assets/images/Klogo.png'
 import LogoSubtitle from '../../assets/images/KCKNOX-name2.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHome, faUser, faEnvelope, faHammer, faBriefcase, } from '@fortawesome/free-solid-svg-icons'
+import { faHome, faUser, faEnvelope, faHammer, faBriefcase, faFilm} from '@fortawesome/free-solid-svg-icons'
 import {faLinkedin, faGithub, faMandalorian} from '@fortawesome/free-brands-svg-icons'
 import way from '../../assets/sounds/the-way.mp3'
 
@@ -60,6 +60,15 @@ const Sidebar = () => {
                     href='https://github.com/kcknox'
                 >
                     <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
+                </a>
+            </li>
+            <li>
+                <a 
+                    target="_blank"
+                    rel="noreferrer"
+                    href='https://letterboxd.com/kcknox/'
+                >
+                    <FontAwesomeIcon icon={faFilm} color="#4d4d4e" />
                 </a>
             </li>
             <li>

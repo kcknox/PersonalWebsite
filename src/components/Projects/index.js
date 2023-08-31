@@ -2,6 +2,8 @@ import Loader from 'react-loaders'
 import './index.scss'
 import AnimatedLetters from "../AnimatedLetters";
 import { useEffect, useState } from 'react';
+//import car from "../../assets/images/F110_Car.jpeg"
+
 
 const Projects = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -71,12 +73,12 @@ const Projects = () => {
                     <h5 className='proj5'> BookHunter Website </h5>
                     <a target="_blank" rel="noopener noreferrer" href="https://gitlab.com/bookhunters/bookhunter" className='repo'> Repository </a>
                     <p>
-                    Collaborated within a team to craft a dynamic website showcasing 
-                    books, authors, and book genres, reminiscent of the style seen on IMDb. 
-                    As a key contributor to the frontend development with occasional 
-                    assistance with the backend, I orchestrated the presentation of data sourced from backend APIs. 
-                    The frontend was meticulously constructed employing technologies 
-                    such as React JS, Bootstrap, and HTML, while the backend operations were facilitated by Python
+                        Collaborated within a team to craft a dynamic website showcasing 
+                        books, authors, and book genres, reminiscent of the style seen on IMDb. 
+                        As a key contributor to the frontend development with occasional 
+                        assistance with the backend, I orchestrated the presentation of data sourced from backend APIs. 
+                        The frontend was meticulously constructed employing technologies 
+                        such as React JS, Bootstrap, and HTML, while the backend operations were facilitated by Python
                     </p>
                 </div>
             </div>
