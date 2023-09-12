@@ -139,10 +139,10 @@
 
 @media screen and (max-width: 1200px) {
     .nav-bar {
-        background: transparent;
         position: initial;
-        height: auto;
+        height: 80px;
         min-height: auto;
+        width: 100%;
 
         ul, nav {
             display: none;
@@ -190,8 +190,8 @@
         .close-icon {
             display: block;
             position: absolute;
-            top: 20px;
-            right: 15px;
+            top: 23px;
+            right: 20px;
         }
     }
 }
