@@ -5,11 +5,14 @@ import { Link, NavLink } from 'react-router-dom'
 import LogoK from '../../assets/images/Klogo.png'
 import LogoSubtitle from '../../assets/images/KCKNOX-name2.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHome, faUser, faEnvelope, faHammer, faBriefcase, faFilm} from '@fortawesome/free-solid-svg-icons'
+import { faHome, faUser, faEnvelope, faHammer, faBriefcase, faFilm, faBars, faClose} from '@fortawesome/free-solid-svg-icons'
 import {faLinkedin, faGithub, faMandalorian} from '@fortawesome/free-brands-svg-icons'
 import way from '../../assets/sounds/the-way.mp3'
+import { useState } from 'react'
 
 const Sidebar = () => {
+
+    const [showNav, setShowNav] = useState(false);
 
     const playSound = () => {
         const audio = new Audio(way);
@@ -22,7 +25,7 @@ const Sidebar = () => {
             <img src={LogoK} alt="logo" />
             <img className="sub-logo" src={LogoSubtitle} alt="logosub" />
         </Link>
-        <nav>
+        <nav className={showNav ? 'mobile-show' : ''}> 
             <NavLink exact="true" activeclassname="active" to="/" >
                 <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
             </NavLink>
@@ -42,6 +45,13 @@ const Sidebar = () => {
             <NavLink exact="true" activeclassname="active" className="contact-link" to="/contact" >
                 <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
             </NavLink>
+            <FontAwesomeIcon 
+                onClick={() => setShowNav(false)}
+                icon={faClose}
+                color="#ffa629"
+                size='3x'
+                className='close-icon'
+            />
         </nav>
         <ul>
             <li>
@@ -77,6 +87,13 @@ const Sidebar = () => {
                 </a>
             </li>
         </ul>
+        <FontAwesomeIcon
+            onClick={() => setShowNav(true)}
+            icon={faBars}
+            color="#ffa629"
+            size="3x"
+            className='hamburger'
+        />
     </div>
 )}
 
