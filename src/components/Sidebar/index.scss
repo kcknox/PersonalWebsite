@@ -177,8 +177,14 @@
 
             &.mobile-show {
                 display: block;
+                ul {
+                    display: block;
+                    content: none;
+                }
             }
         }
+
+        
 
         .hamburger,
         .close-icon {

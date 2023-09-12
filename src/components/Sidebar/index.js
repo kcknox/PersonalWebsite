@@ -46,13 +46,12 @@ const Sidebar = () => {
                 <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
             </NavLink>
             <FontAwesomeIcon 
-                onClick={() => setShowNav(false)}
+                onClick={() => setShowNav(!showNav)}
                 icon={faClose}
                 color="#ffa629"
                 size='3x'
                 className='close-icon'
             />
-        </nav>
         <ul>
             <li>
                 <a 
@@ -86,9 +85,10 @@ const Sidebar = () => {
                     <FontAwesomeIcon icon={faMandalorian} color="#4d4d4e" onClick={playSound} />
                 </a>
             </li>
-        </ul>
+        </ul>   
+        </nav>     
         <FontAwesomeIcon
-            onClick={() => setShowNav(true)}
+             onClick={() => {setShowNav(!showNav);}}
             icon={faBars}
             color="#ffa629"
             size="3x"
