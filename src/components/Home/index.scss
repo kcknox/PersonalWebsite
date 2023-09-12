@@ -99,3 +99,41 @@
         }
       }
 }
+
+@media screen and (max-width: 1200px) {
+    .tags,
+    .home-page h1::before,
+    .home-page h1::after {
+        display: none;
+    }
+
+    .home-page {
+        .text-zone {
+            position: initial;
+            width: 100%;
+            transform: none;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+
+        .flat-button {
+            float: none;
+            display: block;
+            margin: 20px auto 0 auto;
+            width: 125px;
+        }
+
+        h1 {
+            font-size: 45px; /* Adjust the size as needed */
+        }
+
+        .logo {
+            position: relative;
+            width: 100px;
+            height: auto;
+            top: 50%;
+            left: 37%;
+            transform: translate(-50%, -50%);
+        }
+    }
+}
