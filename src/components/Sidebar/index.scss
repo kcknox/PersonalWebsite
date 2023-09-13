@@ -144,7 +144,7 @@
         min-height: auto;
         width: 100%;
 
-        ul, nav {
+        nav, ul {
             display: none;
         }
 
@@ -177,10 +177,7 @@
 
             &.mobile-show {
                 display: block;
-                ul {
-                    display: block;
-                    content: none;
-                }
+                
             }
         }
 

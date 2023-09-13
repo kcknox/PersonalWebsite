@@ -52,6 +52,7 @@ const Sidebar = () => {
                 size='3x'
                 className='close-icon'
             />
+        </nav>     
         <ul>
             <li>
                 <a 
@@ -86,7 +87,6 @@ const Sidebar = () => {
                 </a>
             </li>
         </ul>   
-        </nav>     
         <FontAwesomeIcon
              onClick={() => {setShowNav(!showNav);}}
             icon={faBars}
