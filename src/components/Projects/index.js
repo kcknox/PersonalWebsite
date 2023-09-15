@@ -29,6 +29,16 @@ const Projects = () => {
                             idx={15}
                         />
                     </h1>
+                    <h5 className='proj5'> BookHunter Website </h5>
+                    <a target="_blank" rel="noopener noreferrer" href="https://gitlab.com/bookhunters/bookhunter" className='repo'> Repository </a>
+                    <p>
+                        Collaborated within a team to craft a dynamic website showcasing 
+                        books, authors, and book genres, reminiscent of the style seen on IMDb. 
+                        As a key contributor to the frontend development with occasional 
+                        assistance with the backend, I orchestrated the presentation of data sourced from backend APIs. 
+                        The frontend was meticulously constructed employing technologies 
+                        such as React JS, Bootstrap, and HTML, while the backend operations were facilitated by Python
+                    </p>
                     <h2 className='proj1'> F1/10 Autonomous Car </h2>
                     <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/D3qaYWlWXmY" className='demo'> Demo Video </a>
                     <p>
@@ -44,6 +54,12 @@ const Projects = () => {
                         the car demonstrated adaptive turning mechanisms, adjusting 
                         its direction based on its position relative to the camera's perspective.
                     </p>
+                    <h3 className='proj3'> Machine Learning Projects</h3>
+                    <p>
+                        Implemented numerous machine learning algorithms from scratch in Python,
+                        including Decision Trees, Nearest Neighbor, Naïve Bayes, 
+                        K-Means, DBSCAN, Hierarchal Clustering, and Apriori.
+                    </p>
                     <h2 className='proj2'> Pintos Toy Operating System</h2>
                     <p>
                         Teamed up with peers to enhance a Linux-based toy operating system, 
@@ -54,12 +70,6 @@ const Projects = () => {
                         system into a more intricate multi-level indexed file system, 
                         all accomplished through coding in C.
                     </p>
-                    <h3 className='proj3'> Machine Learning Projects</h3>
-                    <p>
-                        Implemented numerous machine learning algorithms from scratch in Python,
-                        including Decision Trees, Nearest Neighbor, Naïve Bayes, 
-                        K-Means, DBSCAN, Hierarchal Clustering, and Apriori.
-                    </p>
                     <h4 className='proj4'> Huffman Compression Algorithm</h4>
                     <p>
                         Designed and executed a robust data compression solution with
@@ -69,16 +79,6 @@ const Projects = () => {
                         data integrity. Leveraged Java programming to meticulously 
                         craft encoding and decoding functionalities, utilizing data 
                         structures such as binary trees, priority queues and HashMaps.
-                    </p>
-                    <h5 className='proj5'> BookHunter Website </h5>
-                    <a target="_blank" rel="noopener noreferrer" href="https://gitlab.com/bookhunters/bookhunter" className='repo'> Repository </a>
-                    <p>
-                        Collaborated within a team to craft a dynamic website showcasing 
-                        books, authors, and book genres, reminiscent of the style seen on IMDb. 
-                        As a key contributor to the frontend development with occasional 
-                        assistance with the backend, I orchestrated the presentation of data sourced from backend APIs. 
-                        The frontend was meticulously constructed employing technologies 
-                        such as React JS, Bootstrap, and HTML, while the backend operations were facilitated by Python
                     </p>
                 </div>
             </div>

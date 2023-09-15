@@ -37,7 +37,7 @@ const About = () => {
                 Hi! My name is Kenneth Knox, but you can call me Colby. I'm a 4th
                 year computer science student at the University of Texas at Austin
                 and a very ambitious software engineer. I am currently
-                looking for a role in an established IT company for the oppurtunity
+                looking for a role in an established company for the opportunity
                 to work on challenging and diverse projects.
             </p>
             <p>
