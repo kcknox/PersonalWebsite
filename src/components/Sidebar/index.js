@@ -6,7 +6,7 @@ import LogoK from '../../assets/images/Klogo.png'
 import LogoSubtitle from '../../assets/images/KCKNOX-name2.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHome, faUser, faEnvelope, faHammer, faBriefcase, faFilm, faBars, faClose} from '@fortawesome/free-solid-svg-icons'
-import {faLinkedin, faGithub, faMandalorian} from '@fortawesome/free-brands-svg-icons'
+import {faLinkedin, faGithub, faMandalorian, faSquareGitlab} from '@fortawesome/free-brands-svg-icons'
 import way from '../../assets/sounds/the-way.mp3'
 import { useState } from 'react'
 
@@ -70,6 +70,15 @@ const Sidebar = () => {
                     href='https://github.com/kcknox'
                 >
                     <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
+                </a>
+            </li>
+            <li>
+                <a
+                    target="_blank"
+                    rel="noreferrer"
+                    href='https://gitlab.com/kck51'
+                >
+                    <FontAwesomeIcon icon={faSquareGitlab} color="#4d4d4e" />
                 </a>
             </li>
             <li>
