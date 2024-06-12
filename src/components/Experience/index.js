@@ -27,9 +27,26 @@ const Experience = () => {
                             idx={15}
                         />
                     </h1>
-                    <h2 className='title1'>
-                        Juni Learning, Remote Computer Science Instructor
+                    <h2 className='title0'>
+                        Adom, Software Engineer
                     </h2>
+                    <p>
+                        Software engineer working full-stack on a variety of projects.
+                    </p>
+                    <h3 className='title1'>
+                        Upwork - Enterprise Talent Solutions Branch, AI Training Engineer
+                    </h3>
+                    <p>
+                        In my role, I leveraged advanced reinforcement 
+                        and supervised learning techniques to enhance AI model efficiency significantly. I led AI model 
+                        training initiatives for top-tier companies, steering projects 
+                        that consistently placed these organizations within the top 10% 
+                        of the industry. Additionally, I was responsible for the data cleaning of large databases, 
+                        involving over 50,000 records.
+                    </p>
+                    <h4 className='title2'>
+                    Juni Learning, Remote Computer Science Instructor
+                    </h4>
                     <p>
                         I conducted interactive Zoom lessons for students aged 8-18, 
                         covering a wide range of topics from basic data structures to applied programming. I adapted my 
@@ -38,25 +55,15 @@ const Experience = () => {
                         I also maintained detailed records for each student, tracking their skill level
                         progression across multiple courses.
                     </p>
-                    <h3 className='title2'>
-                        Rigidnet LLC, Intern
-                    </h3>
+                    <h5 className='title3'>
+                        Rigidnet LLC, Technical Intern
+                    </h5>
                     <p>
                         In my role as an intern, I successfully completed the installation of new computer
                         systems and seamlessly integrated them with the cloud infrastructure at 20 car dealerships
                         located across the DFW area. Additionally, I proactively reached out to clients to discuss
                         and implement necessary upgrades and updates to their computers and other hardware, 
                         ensuring that their systems were up-to-date and operating at optimal performance levels.
-                    </p>
-                    <h4 className='title3'>
-                        IMC Facility Services, Project Management Intern
-                    </h4>
-                    <p>
-                        In my role as a project manager, I actively engaged in negotiations with Chick-fil-A 
-                        management teams from various locations, handling important aspects such as scheduling, 
-                        pricing, and other miscellaneous logistics. Additionally, I collaborated with a dedicated
-                        construction team to successfully renovate multiple restaurants, ensuring that the 
-                        projects were executed efficiently and in accordance with the desired specifications.
                     </p>        
                 </div>
                 <a target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1q0oSG5DKiC49VZbCNE0Hq7gF2GGzbrmd/view?usp=sharing" className='custom-button'> RESUME </a>

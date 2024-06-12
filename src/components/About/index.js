@@ -1,7 +1,7 @@
 import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
 import { useEffect, useState } from 'react';
-import head from "../../assets/images/Headshot.jpg";
+import head from "../../assets/images/no_stole.jpg";
 import room from "../../assets/images/room.jpg";
 import cousin from "../../assets/images/cousins.jpg"
 import chess from "../../assets/images/chess.jpg"
@@ -34,16 +34,14 @@ const About = () => {
                 />
             </h1>
             <p>
-                Hi! My name is Kenneth Knox, but you can call me Colby. I'm a 4th
-                year computer science student at the University of Texas at Austin
-                and a very ambitious software engineer. I am currently
-                looking for a role in an established company for the opportunity
-                to work on challenging and diverse projects.
+                Hi! My name is Kenneth Knox, but you can call me Colby. I'm a software
+                engineer at Adom. I am currently working full-stack on projects and 
+                learning incredible new things every day.
             </p>
             <p>
-                I have a passion for front-end development and all things creative.
+                I have a passion for all things creative.
                 I have developed a strong skill set in Java, Python, C, C++, JavaScript,
-                and React JS throughout my computer science career.
+                and React JS (just to name a few) throughout my computer science career.
             </p>
             <p>
                 I love collaborating with others and am always excited to learn new things.

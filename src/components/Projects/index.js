@@ -29,6 +29,22 @@ const Projects = () => {
                             idx={15}
                         />
                     </h1>
+                    <h3 className='proj3'> Racing Raisins </h3>
+                    <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/D9rvslA83-U?si=j1qb9l1aGCJQiO82" className='demo1'> Demo Video </a>
+                    <p>
+                        Designed and development of an innovative arcade-style racing 
+                        game with a team of 4 others. 
+                        Leveraging Unreal Engine 5 and C++, we created a dynamic 
+                        gaming experience that features both online networking capabilities
+                        and AI opponents. My responsibilities extended beyond 
+                        programming to include music, sound, and map design. We effectively coordinated team efforts through GitLab Issues,
+                        managing tasks and tracking progress, while also using Discord to facilitate 
+                        real-time communication and problem-solving discussions.
+                        This project not only honed my technical skills but also enhanced my 
+                        capabilities in project management and teamwork within a high-stakes development environment.
+
+
+                    </p>
                     <h5 className='proj5'> BookHunter Website </h5>
                     <a target="_blank" rel="noopener noreferrer" href="https://gitlab.com/bookhunters/bookhunter" className='repo'> Repository </a>
                     <p>
@@ -36,8 +52,8 @@ const Projects = () => {
                         books, authors, and book genres, reminiscent of the style seen on IMDb. 
                         As a key contributor to the frontend development with occasional 
                         assistance with the backend, I orchestrated the presentation of data sourced from backend APIs. 
-                        The frontend was meticulously constructed employing technologies 
-                        such as React JS, Bootstrap, and HTML, while the backend operations were facilitated by Python
+                        The frontend was constructed employing technologies 
+                        such as React JS, Bootstrap, and HTML, while the backend operations were facilitated by Python and Django.
                     </p>
                     <h2 className='proj1'> F1/10 Autonomous Car </h2>
                     <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/D3qaYWlWXmY" className='demo'> Demo Video </a>
@@ -45,40 +61,28 @@ const Projects = () => {
                         Worked collaboratively within a team to develop the software 
                         for an F1/10 car, equipped with both a LiDAR scanner and a camera. 
                         Leveraged the capabilities of the OpenCV library and C++ to 
-                        create a sophisticated simulation of an autonomous vehicle. 
+                        create a simulation of an autonomous vehicle. 
                         Noteworthy functionalities included responsive acceleration 
-                        upon identification of a green circle by the camera, controlled 
+                        upon identification of a green circle by the camera, 
                         deceleration upon detecting a yellow circle, and immediate 
-                        cessation of movement in the presence of a red circle or if 
-                        the circle approached the scanner's vicinity. Additionally, 
+                        cessation of movement in the detection of a red circle or if 
+                        the circle got too close to the scanner. Additionally, 
                         the car demonstrated adaptive turning mechanisms, adjusting 
                         its direction based on its position relative to the camera's perspective.
                     </p>
-                    <h3 className='proj3'> Machine Learning Projects</h3>
+                    
+                    <h2 className='proj2'> Reddit Android App </h2>
+                    <p>
+                        Developed an app in Android Studio using Kotlin and which pulled posts and subreddits 
+                        from the Reddit API and displayed them. Allowed users to search key words in posts
+                        and subreddits as well as switch between subreddits. The app also allowed
+                        users to favorite posts and view them in a separate tab. 
+                    </p>
+                    <h4 className='proj4'> Machine Learning Projects </h4>
                     <p>
                         Implemented numerous machine learning algorithms from scratch in Python,
                         including Decision Trees, Nearest Neighbor, Naïve Bayes, 
                         K-Means, DBSCAN, Hierarchal Clustering, and Apriori.
-                    </p>
-                    <h2 className='proj2'> Pintos Toy Operating System</h2>
-                    <p>
-                        Teamed up with peers to enhance a Linux-based toy operating system, 
-                        incorporating advanced features such as priority scheduling, 
-                        stack-based argument passing, and the integration of user program 
-                        system calls. Additionally, seamlessly integrated virtual memory, 
-                        while also transforming the pre-existing single-thread file 
-                        system into a more intricate multi-level indexed file system, 
-                        all accomplished through coding in C.
-                    </p>
-                    <h4 className='proj4'> Huffman Compression Algorithm</h4>
-                    <p>
-                        Designed and executed a robust data compression solution with
-                        an intuitive Graphical User Interface (GUI) by 
-                        implementing the Huffman coding algorithm. The project yielded 
-                        substantial reductions in file sizes while ensuring the utmost
-                        data integrity. Leveraged Java programming to meticulously 
-                        craft encoding and decoding functionalities, utilizing data 
-                        structures such as binary trees, priority queues and HashMaps.
                     </p>
                 </div>
             </div>

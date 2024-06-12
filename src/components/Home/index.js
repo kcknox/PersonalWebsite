@@ -39,7 +39,7 @@ const Home = () => {
                     <br />
                     <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={27} />
                 </h1>
-                <h2> 4th Year Computer Science Student @ The University of Texas at Austin</h2>
+                <h2> Software Engineer @ Adom Industries Inc.</h2>
                 <Link to="/contact" className='flat-button'> CONTACT ME </Link>
             </div>
             <img src={LogoK} alt="K" className="logo" />
