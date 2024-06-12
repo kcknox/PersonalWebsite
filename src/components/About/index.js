@@ -34,8 +34,10 @@ const About = () => {
                 />
             </h1>
             <p>
-                Hi! My name is Kenneth Knox, but you can call me Colby. I'm a software
-                engineer at Adom. I am currently working full-stack on projects and 
+                Hi! My name is Kenneth Knox, but you can call me Colby. I graduated from 
+                the University of Texas at Austin with a Bachelor's Degree in Computer Science in 
+                May of 2024.
+                I'm currently a software engineer at Adom, working full-stack on projects and 
                 learning incredible new things every day.
             </p>
             <p>
@@ -49,7 +51,7 @@ const About = () => {
                 watching a movie or sports, doing something outdoors, or beating my roommates in chess.
             </p>
             <p>
-                Thanks for stopping by!
+                Thanks for stopping by! Hook 'em!
             </p>
         </div>
 
