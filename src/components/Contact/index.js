@@ -52,8 +52,7 @@ const Contact = () => {
                         />
                     </h1>
                     <p>
-                        I am currently seeking employment from an IT company for 
-                        post graduation (May 2024). If you have a question,
+                        If you have a question,
                         feedback, or just want to say hi, I'd love to hear from
                         you! Use the form below to send me a message.
                     </p>
